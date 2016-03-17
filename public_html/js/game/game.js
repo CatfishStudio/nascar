@@ -21,6 +21,8 @@ Game.prototype = {
         var preloader = new Preloader();
         this.stage.addChild(preloader.getStage());
         preloader.startLoad();
+        
+        preloader = null;
     }
 };
 
